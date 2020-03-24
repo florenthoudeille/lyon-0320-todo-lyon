@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+        <title>ToDoLyon</title>
+        <meta name="Description" content="Site touristique répertoriant certaines
+        activités sur Lyon et ses alentours."/>
+        <meta charset="UTF-8"/>
+        <meta name="authors" content="Best equip">
+        <link rel="stylesheet" href="stylemodal.css" />
+        <link href="https://fonts.googleapis.com/css?family=Bellota|Pacifico&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+    </head>
+    <body>
+        <header> <!-- /////////////////////////////////////////////////////////////////////// A SUPPRIMER /////////////////////////////////////////////////////////////////////////////////////
+            <div>
+                <a href="index.html"><img src="https://i.imgur.com/d2eEvLw.png" alt="Logo_TDL"  class="logoHeader"></a>
+            </div>
+            <h1 class="mainTitleHeader">ToDoLyon</h1>
+            <nav class="navHeader">
+                <ul class="ulHeader">
+                    <li class="liHeader"><a href="#Categories" title="Trouver mon activité">Trouver mon activité</a></li>
+                    <li class="liHeader"><a href="#Contact" title="Contactez-nous, on ne mord pas !">Contactez-nous !</a></li>
+                    <li class="liHeader"><a href="Staff.html" title="Faites connaissance avec la faune !">On te parle de nous</a></li> <!-- Ajouter URL vers page "à propos" dans href -->
+                    <li class="liHeader"><button id="myBtn">Sondage</button></li> <!-- Ouverture Modal sondage -->
+                </ul>
+            </nav>
+        </header>
+
+
+            <!-- The Survey's Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Survey's Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+              </div>
+
+            </div>
+
+
+                                    
+
+                     <!--Formulaire de contact --> <!-- ////////////////////////////// A SUPPRIMER //////////////////////////////////////////////////////////////////////////////
+            <section id="Contact">
+                <h2 class="contact-h">Contactez-nous</h2>
+                <form class="form-M">
+                    <fieldset>
+                        <legend>Vos coordonnées</legend>
+
+                            <div>
+                                <label class="Champ-O" for="email">*</label>
+                                <input class="int" type="email" id="email" name="email" placeholder="Votre mail" required/>
+                            </div>
+
+                            <div>
+                                <label class="Champ-O" for="nom">*</label>
+                                <input class="int" type="text" id="nom" name="nom" placeholder="Votre nom" required/>
+                            </div>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Des questions ?</legend>
+
+                            <div>
+                                <label for="objet"></label>
+                                <select name="object" id="object">
+                                    <option>j'ai besoin d'un renseignement</option>
+                                    <option>Je rencontre unproblème</option>
+                                    <option>Je souhaite proposer une activité</option>
+                                    <option>others</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label for="message"></label>
+                                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                            </div>
+                                
+                            <div>
+                                <label for="pub">Je souhaite recevoir la newsletters</label>
+                                <input class="int" type="checkbox" id="pub" name="pub" checked/>
+                            
+                            </div>
+    
+                            <div>
+                                <button id="button-M">Envoyer !</button>
+                            </div>
+
+                    </fieldset>
+                        <h4>Les champs marqués par "*" sont obligatoires.</h4>
+                </form>
+
+            
+            </section>
+        
+        </main>
+
+        <footer>
+
+            <div>
+                <a href=#><img src="https://i.imgur.com/d2eEvLw.png" alt="Logo_TDL" id="logoFooter"></a>
+            </div>
+
+            <nav class="navListeFooter">
+                <ul class="listeFooter">
+                    <li><a href="index.html" title="lien vers le menu" class="texteFooter">Trouver mon activité</a></li>
+                    <li><a href="index.html" title="lien vers le sondage" class="texteFooter">Sondage</a></li>
+                    <li><a href="#" title="lien vers les mentions légales" class="texteFooter">Mentions légales</a></li>
+                    <li><a href="#" title="lien vers la FAQ" class="texteFooter">FAQ</a></li>
+
+                </ul>
+            </nav>
+            <div id="thirdcolumn">
+                <nav id="navSocialNetworks">
+                    <h2 id="followUs" class="texteFooter">Nous suivre:</h2>
+                    <ul class="socialNetworks">
+                        <li><a href="https://twitter.com" title="lien vers notre profil Twitter"><img class="twitter" src="https://www.bassin-arcachon.com/wp-content/uploads/2017/02/logo-twitter-bleu.png" alt="Logo_Twitter"></a></li>
+                        <li><a href="https://facebook.com" title="lien vers notre profil Facebook"><img class="facebook" src="https://cdn.icon-icons.com/icons2/159/PNG/256/facebook_22567.png" alt="Logo_FB"></a></li>
+                        <li><a href="https://instagram.com" title="lien vers notre profil instagram"><img class="instagram" src="https://www.followerspascher.com/wp-content/uploads/2016/06/1466927228_social-instagram-new-circle.png" alt="Logo_instagram"></a></li>
+                    </ul>
+                </nav>
+
+                <div id="research">
+                    <form>
+                        <input class="caseFooter" type="search" id="site-search" name="q" aria-label="Search through site content">
+                        <button type="submit" class="caseFooter">Rechercher</button>
+                    </form>
+                </div>
+            </div>
+        </footer>
+                    //////////////////////////////////////////////////////////////////// A SUPPRIMER ///////////////////////////////////////////// -->
+        <script src="projet.js"></script>
+        
+    </body>
+    
+</html>
